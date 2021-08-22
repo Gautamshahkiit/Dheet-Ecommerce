@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Dheet-Developer-Team/Dheet-Ecommerce/static/css/main.b97c3368.chunk.css",
-    "main.js": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/main.f721dc51.chunk.js",
-    "main.js.map": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/main.f721dc51.chunk.js.map",
-    "runtime-main.js": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/runtime-main.9ef63c37.js",
-    "runtime-main.js.map": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/runtime-main.9ef63c37.js.map",
-    "static/css/2.983f79de.chunk.css": "/Dheet-Developer-Team/Dheet-Ecommerce/static/css/2.983f79de.chunk.css",
-    "static/js/2.a97963f3.chunk.js": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/2.a97963f3.chunk.js",
-    "static/js/2.a97963f3.chunk.js.map": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/2.a97963f3.chunk.js.map",
-    "index.html": "/Dheet-Developer-Team/Dheet-Ecommerce/index.html",
-    "static/css/2.983f79de.chunk.css.map": "/Dheet-Developer-Team/Dheet-Ecommerce/static/css/2.983f79de.chunk.css.map",
-    "static/css/main.b97c3368.chunk.css.map": "/Dheet-Developer-Team/Dheet-Ecommerce/static/css/main.b97c3368.chunk.css.map",
-    "static/js/2.a97963f3.chunk.js.LICENSE.txt": "/Dheet-Developer-Team/Dheet-Ecommerce/static/js/2.a97963f3.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.b97c3368.chunk.css",
+    "main.js": "/static/js/main.f721dc51.chunk.js",
+    "main.js.map": "/static/js/main.f721dc51.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de1693d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de1693d8.js.map",
+    "static/css/2.983f79de.chunk.css": "/static/css/2.983f79de.chunk.css",
+    "static/js/2.a97963f3.chunk.js": "/static/js/2.a97963f3.chunk.js",
+    "static/js/2.a97963f3.chunk.js.map": "/static/js/2.a97963f3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.983f79de.chunk.css.map": "/static/css/2.983f79de.chunk.css.map",
+    "static/css/main.b97c3368.chunk.css.map": "/static/css/main.b97c3368.chunk.css.map",
+    "static/js/2.a97963f3.chunk.js.LICENSE.txt": "/static/js/2.a97963f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ef63c37.js",
+    "static/js/runtime-main.de1693d8.js",
     "static/css/2.983f79de.chunk.css",
     "static/js/2.a97963f3.chunk.js",
     "static/css/main.b97c3368.chunk.css",
