@@ -26,13 +26,11 @@ const Header = () => {
         className="Search2"
         type="text"
         placeholder="Search items, collections, and accounts"
-        onChange={(event) => {
-          setSearchTerm(event.target.value);
-        }}
+        onChange={(event) => setSearchTerm(event.target.value)}
       />
 
       {JSONDATA.filter((val) => {
-        if (searchTerm == "") {
+        if (searchTerm === "") {
           return val;
         } else if (
           val.Category.toLowerCase().includes(searchTerm.toLowerCase())
@@ -41,19 +39,14 @@ const Header = () => {
         } else if (val.Name.toLowerCase().includes(searchTerm.toLowerCase())) {
           return val;
         }
+        // return val;
       })
         .slice(0, 5)
         .map((val, key) => {
           return (
-            <div className="Search2">
-              {searchTerm.length != 0 && (
-                <a
-                  className="useer"
-                  href={val.Image}
-                  onChange="user"
-                  key={key}
-                  target="_blank"
-                >
+            <div key={key} className="Search2">
+              {searchTerm.length !== 0 && (
+                <a className="useer" href={val.Image} key={key}>
                   <p> {val.Name} </p>{" "}
                 </a>
               )}
@@ -62,20 +55,6 @@ const Header = () => {
           );
         })}
       <div className="right-nav">
-        <ul>
-          <li>
-            <a href="">Marketplace</a>
-          </li>
-          <li>
-            <a href="">Stats</a>
-          </li>
-          <li>
-            <a href="">Resources</a>
-          </li>
-          <li>
-            <a href="">Create</a>
-          </li>
-        </ul>
         <Link to="/bids">
           <svg
             stroke="currentColor"
@@ -105,7 +84,7 @@ const Header = () => {
           </svg>
         </Link>
         <Link to="/login">
-          <img src="/img/enter.png"></img>
+          <img src="/img/enter.png" alt="login"></img>
         </Link>
       </div>
     </div>
